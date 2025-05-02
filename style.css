@@ -91,7 +91,7 @@ header{
 
 main{
     background-color: var(--sage);
-    padding: 20px 50px;
+    padding: 20px ;
     text-align: left;
     color: var(--jet);
     flex: 1;
@@ -128,8 +128,8 @@ article:hover {
 .container {
     display: flex;
     justify-content: center;
-    gap: 60px;
-    padding: 20px ;
+    padding: 0, 20px ;
+    gap: 40px;
     flex-wrap: wrap;
     font-size: 12px;
 }
@@ -187,10 +187,11 @@ img {
 
 .contact-info{
     background-color: var(--cream);
-    padding: 20px;
+    padding: 30px;
     width: fit-content;
+    max-width: max-content;
     height: fit-content;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -273,7 +274,7 @@ footer p{
     }
     
     span{
-        font-size: 12px;
+        font-size: 11px;
         color: var(--jet);
     }
 
@@ -288,5 +289,16 @@ footer p{
         font-size: 8px;
     }
 
-
+    .sosmed{
+        gap: 3px;
+    }
+    .sosmed img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    span{
+        font-size: 9px;
+        color: var(--jet);
+    }
 }
