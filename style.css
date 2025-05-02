@@ -276,7 +276,7 @@ footer p{
     }
     
     span{
-        font-size: 14px;
+        font-size: 12px;
         color: var(--jet);
     }
 
@@ -315,10 +315,5 @@ footer p{
     .sosmed img{
         width: 15px;
         height: 15px;
-    }
-    
-    span{
-        font-size: 9px;
-        color: var(--jet);
     }
 }
