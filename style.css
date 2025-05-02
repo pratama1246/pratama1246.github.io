@@ -14,10 +14,8 @@
     min-height: 100vh;
   }
 
-  .logo{
-    font-weight: bold;
-    color: var(--cream);
-  }
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
@@ -32,8 +30,7 @@ header{
     background-image: url(2688x1511-WALLSBYJFL.jpg);
     background-size: cover;
     color: var(--jet);
-    text-align: left;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 
@@ -49,7 +46,7 @@ header{
 #subjudul{
     text-align: center;
     color: var(--jet);
-    font-size: 30px;
+    font-size: 4vw;
 }
 
 .navbar {
@@ -66,6 +63,8 @@ header{
   .logo {
     font-weight: bold;
     font-size: 18px;
+    color: var(--cream);
+    text-decoration: none;
   }
   
   .nav-links {
@@ -103,8 +102,8 @@ article {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 10px;
     padding: 10px 30px;
-    text-align: justify;
-    max-width: 400px;
+    text-align: left;
+    max-width: 500px;
     min-width: 200px;
     flex: 1 1 300px;
     transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -117,11 +116,11 @@ article:hover {
 
 #tentang{
     background-color: var(--cream);
-    padding: 20px 50px;
-    text-align: justify;
+    padding: 20px ;
+    text-align: left;
     width: 100%;
-    max-width: 800px;
-    font-size: 20px;
+    max-width: 1000px;
+    font-size: 1.5vw;
     color: var(--jet);
     flex: 1;
 }
@@ -190,7 +189,7 @@ img {
     background-color: var(--cream);
     padding: 20px;
     width: 100%;
-    max-width: fit-content;
+    width: fit-content;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -208,8 +207,13 @@ img {
     padding: 15px 0px;
 }
 
+.sosmed img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
 span{
-    font-size: clamp(14px, 2vw, 20px);
+    font-size: 2;
     color: var(--jet);
 }
 
@@ -225,6 +229,7 @@ footer p{
     padding: 0px 20px;
 }
 
+
 @media (max-width: 768px) {
     .nav-links {
       display: none;
@@ -237,7 +242,10 @@ footer p{
       border-radius: 10px;
       width: 160px;
     }
-  
+    
+    .logo{
+        font-size: 16px;
+    }
     .nav-links.show {
       display: flex;
     }
@@ -246,4 +254,24 @@ footer p{
       display: block;
     }
 
+    footer p{
+        font-size: 10px;
+    }
+
+    #tentang{
+        font-size: 10px;
+    }
+
   }
+
+@media (max-width: 480px) {
+    .logo{
+        font-size: 14px;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+
+
+}
