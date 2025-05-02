@@ -41,6 +41,7 @@ header{
 #judul{
     text-align: center;
     color: var(--cream);
+    font-size: 6vw;
 }
 
 #subjudul{
@@ -121,7 +122,7 @@ article:hover {
     text-align: left;
     width: 100%;
     max-width: 1000px;
-    font-size: 1.5vw;
+    font-size: 20px;
     color: var(--jet);
     flex: 1;
 }
@@ -263,19 +264,23 @@ footer p{
     }
 
     #tentang{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .sosmed{
         gap: 5px;
     }
     .sosmed img{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-info{
+        padding: 20px;
     }
     
     span{
-        font-size: 11px;
+        font-size: 14px;
         color: var(--jet);
     }
 
@@ -308,7 +313,9 @@ footer p{
     footer p{
         font-size: 8px;
     }
-
+    .contact-info{
+        padding: 10px;
+    }
     .sosmed{
         gap: 3px;
     }
