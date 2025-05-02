@@ -190,8 +190,8 @@ img {
 .contact-info{
     background-color: var(--cream);
     padding: 30px;
-    width: fit-content;
-    max-width: max-content;
+    width: 100%;
+    max-width: 500px;
     height: fit-content;
     border-radius: 12px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -274,10 +274,6 @@ footer p{
         width: 30px;
         height: 30px;
     }
-
-    .contact-info{
-        padding: 20px;
-    }
     
     span{
         font-size: 14px;
@@ -312,9 +308,6 @@ footer p{
 
     footer p{
         font-size: 8px;
-    }
-    .contact-info{
-        padding: 10px;
     }
     .sosmed{
         gap: 3px;
