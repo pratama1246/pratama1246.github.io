@@ -1,6 +1,6 @@
 # 🖼️ TheGreatesWallpaper.com — Legacy Web Project
 
-A simple static nature wallpaper gallery website built using native **HTML5**, **CSS3**, and **Vanilla JavaScript** without any frameworks. This was my very first web project, marking the beginning of my journey in *web development*.
+A simple static nature wallpaper gallery website built using native **HTML5**, **CSS3**, and **Vanilla JavaScript** without any frameworks. This was my very first web project, marking the beginning of my journey in web development.
 
 ---
 
@@ -14,6 +14,21 @@ A simple static nature wallpaper gallery website built using native **HTML5**, *
   - `tentang.html` (About Us)
   - `kegiatan.html` (Activities / Photo Showcase)
   - `kontak.html` (Contact Us)
+
+---
+
+## 📁 Folder Structure
+
+```text
+.
+├── index.html      # Main page
+├── tentang.html    # About page
+├── kegiatan.html   # Activities page
+├── kontak.html     # Contact page
+├── style.css       # Stylesheet
+├── script.js       # JavaScript file
+└── assets/         # Asset directory
+```
 
 ---
 
