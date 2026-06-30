@@ -65,4 +65,4 @@ This project is lightweight and does not require any local web server (such as N
 
 ## 📝 License
 
-This application is developed strictly for non-profit learning and portfolio purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
